@@ -1,0 +1,66 @@
+Dependencies for Project 'My_FreeRTOS', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\User\main.c)(0x62ADE23A)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\freeRTOS\include -I ..\freeRTOS\protable\RVDS\ARM_CM3 -I ..\freeRTOS-I.\RTE\_Target_1-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="535" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\freeRTOS\include\FreeRTOS.h)(0x62AC3C9D)
+I (..\freeRTOS\include\FreeRTOSConfig.h)(0x62ADE581)
+I (..\freeRTOS\include\projdefs.h)(0x61C679D4)
+I (..\freeRTOS\include\portable.h)(0x62A598FB)
+I (..\freeRTOS\include\portmacro.h)(0x62ADEBAF)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\freeRTOS\include\list.h)(0x62AD7BC6)
+I (..\freeRTOS\include\task.h)(0x62ADE482)
+F (..\freeRTOS\protable\RVDS\ARM_CM3\port.c)(0x62ADEDF1)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\freeRTOS\include -I ..\freeRTOS\protable\RVDS\ARM_CM3 -I ..\freeRTOS-I.\RTE\_Target_1-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="535" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (..\freeRTOS\include\FreeRTOS.h)(0x62AC3C9D)
+I (..\freeRTOS\include\FreeRTOSConfig.h)(0x62ADE581)
+I (..\freeRTOS\include\projdefs.h)(0x61C679D4)
+I (..\freeRTOS\include\portable.h)(0x62A598FB)
+I (..\freeRTOS\include\portmacro.h)(0x62ADEBAF)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\freeRTOS\include\list.h)(0x62AD7BC6)
+I (..\freeRTOS\include\task.h)(0x62ADE482)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x60D3E8E2)
+F (..\freeRTOS\list.c)(0x62A45A96)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\freeRTOS\include -I ..\freeRTOS\protable\RVDS\ARM_CM3 -I ..\freeRTOS-I.\RTE\_Target_1-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="535" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (..\freeRTOS\include\FreeRTOS.h)(0x62AC3C9D)
+I (..\freeRTOS\include\FreeRTOSConfig.h)(0x62ADE581)
+I (..\freeRTOS\include\projdefs.h)(0x61C679D4)
+I (..\freeRTOS\include\portable.h)(0x62A598FB)
+I (..\freeRTOS\include\portmacro.h)(0x62ADEBAF)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\freeRTOS\include\list.h)(0x62AD7BC6)
+F (..\freeRTOS\include\FreeRTOSConfig.h)(0x62ADE581)()
+F (..\freeRTOS\include\portmacro.h)(0x62ADEBAF)()
+F (..\freeRTOS\include\FreeRTOS.h)(0x62AC3C9D)()
+F (..\freeRTOS\include\portable.h)(0x62A598FB)()
+F (..\freeRTOS\include\list.h)(0x62AD7BC6)()
+F (..\freeRTOS\task.c)(0x62ADEBE0)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\freeRTOS\include -I ..\freeRTOS\protable\RVDS\ARM_CM3 -I ..\freeRTOS-I.\RTE\_Target_1-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="535" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\task.o --omf_browse .\objects\task.crf --depend .\objects\task.d)
+I (..\freeRTOS\include\FreeRTOS.h)(0x62AC3C9D)
+I (..\freeRTOS\include\FreeRTOSConfig.h)(0x62ADE581)
+I (..\freeRTOS\include\projdefs.h)(0x61C679D4)
+I (..\freeRTOS\include\portable.h)(0x62A598FB)
+I (..\freeRTOS\include\portmacro.h)(0x62ADEBAF)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\freeRTOS\include\list.h)(0x62AD7BC6)
+I (..\freeRTOS\include\task.h)(0x62ADE482)
+F (..\freeRTOS\include\task.h)(0x62ADE482)()
+F (..\freeRTOS\include\projdefs.h)(0x61C679D4)()
+F (..\Doc\readme.txt)(0x629F37BC)()
+F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x58984992)(--cpu Cortex-M3 --li -g --apcs=interwork -I.\RTE\_Target_1-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_armcm3.lst --xref -o .\objects\startup_armcm3.o --depend .\objects\startup_armcm3.d)
+F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x629F3EEB)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\freeRTOS\include -I ..\freeRTOS\protable\RVDS\ARM_CM3 -I ..\freeRTOS-I.\RTE\_Target_1-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="535" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\system_armcm3.o --omf_browse .\objects\system_armcm3.crf --depend .\objects\system_armcm3.d)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x60D3E8E2)

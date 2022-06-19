@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 666666 666666, 666666, LIC=14HV2-9U212-307NC-77DM3-BKKDP-64BZS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
+Toolchain Path:  D:\study\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\FreeRTOS\5_支持多优先级\Project\My_FreeRTOS.uvprojx
+Project File Date:  06/11/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\study\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling main.c...
+compiling list.c...
+compiling port.c...
+assembling startup_ARMCM3.s...
+compiling task.c...
+..\freeRTOS\task.c(13): warning:  #550-D: variable "xIdleTaskHandle"  was set but never used
+  static TaskHandle_t xIdleTaskHandle	= NULL; //(由于只定义赋值后没有再使用，所以编译器会有一个警告，这个不用理)
+..\freeRTOS\task.c: 1 warning, 0 errors
+compiling system_ARMCM3.c...
+linking...
+Program Size: Code=1652 RO-data=224 RW-data=44 ZI-data=6004  
+".\Objects\My_FreeRTOS.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+   * Component: Startup Version: 1.2.2
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\study\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: ARM::Device:Startup:1.2.2
+      Source file:   Device\ARM\ARMCM3\Source\system_ARMCM3.c
+      Source file:   Device\ARM\ARMCM3\Source\ARM\startup_ARMCM3.s
+      Include file:  Device\ARM\ARMCM3\Include\ARMCM3.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
