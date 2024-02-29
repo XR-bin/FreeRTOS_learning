@@ -1,0 +1,25 @@
+-----FreeRTOS
+                    |
+                    -----include  内包含了FreeRTOS所有的头文件
+                    |              
+                    ----portable(操作系统和硬件层面的芯片的桥梁)
+                    |                 |
+                    |                 -----MemMang(内存管理的文件)
+                    |                 |
+                    |                 -----RVDS(芯片内核相关文件)
+                    |
+                    ----- src( FreeRTOS的软件层函数源文件)
+                               |
+                               -----croutine.c(协程相关文件)
+                               |
+                               -----event_groups.c(事件相关文件)
+                               |
+                               -----list.c(列表相关文件)
+                               |
+                               -----queue.c(队列相关文件)
+                               |
+                               -----stream_buffer.c(流式缓冲区相关文件)
+                               |
+                               -----tasks.c(任务相关文件)
+                               |
+                               -----timers.c(软件定时器相关文件)
