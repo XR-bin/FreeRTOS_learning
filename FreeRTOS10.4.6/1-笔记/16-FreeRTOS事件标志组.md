@@ -1,5 +1,7 @@
 # FreeRTOS事件标志组
 
+
+
 ## 一、事件标志组简介
 
 ### 1、事件标志组介绍
@@ -131,7 +133,6 @@ EventBits_t   xEventGroupWaitBits(   EventGroupHandle_t   xEventGroup,
                                      const BaseType_t     xClearOnExit,
                                      const BaseType_t     xWaitForAllBits,
                                      TickType_t           xTicksToWait  )
-
 ```
 
 函数参数：
