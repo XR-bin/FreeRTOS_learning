@@ -1,5 +1,7 @@
 # FreeRTOS信号量
 
+------
+
 
 
 ## 一、信号量简介
@@ -48,6 +50,8 @@
 ![](笔记图片/队列与信号量的对比.png)
 
 ------
+
+
 
 
 
@@ -144,6 +148,8 @@ BaseType_t   xSemaphoreTake( xSemaphore, xBlockTime )
 
 
 
+
+
 ## 三、计数型信号量
 
 ### 1、计数型信号量介绍
@@ -207,6 +213,8 @@ BaseType_t   xSemaphoreTake( xSemaphore, xBlockTime )
 
 
 
+
+
 ## 四、优先级翻转介绍
 
 ### 1、优先级翻转简介
@@ -228,6 +236,8 @@ BaseType_t   xSemaphoreTake( xSemaphore, xBlockTime )
 高优先级任务被低优先级任务阻塞，导致高优先级任务迟迟得不到调度。但其他中等优先级的任务却能抢到CPU资源。从现象上看，就像是中等优先级的任务比高优先级任务具有更高的优先权(即优先级翻转)。
 
 ------
+
+
 
 
 
